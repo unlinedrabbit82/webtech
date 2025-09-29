@@ -1,0 +1,21 @@
+/*   css demo   */
+
+/*  ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  ---------------Global Styles----------------- */
+
+
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    
+}
