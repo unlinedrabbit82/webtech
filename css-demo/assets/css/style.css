@@ -9,6 +9,13 @@ html {
   box-sizing: inherit;
 }
 
+/*  ---------------Utility Classes----------------- */
+
+.container{
+  width: 80vw;
+background:red;
+}
+
 /*  ---------------Global Styles----------------- */
 body {
   background-color:#ffffff;
@@ -51,7 +58,8 @@ header.primary h2{
   margin:0;
 }
 
-header.primary nav{}
+header.primary nav{
+}
 header.primary nav ul{
   padding:0;
   display:flex;
@@ -68,9 +76,31 @@ header.primary nav a{
   padding:5px 7.5px;
   border-radius: 10px;
   border: 1px solid #c0c0c0;
-  transition:10.4s;
+  transition:.4s;
 }
 
 header.primary nav a:hover {
   background-color:rgba(0,0,0,.8);
+}
+
+
+
+
+
+
+
+/*------------------Media Queries -------------------*/
+
+@media screen and (max-width:500px){
+  
+header.primary nav ul{
+  flex-direction:column;
+  gap:10px;
+}  
+  
+  header.primary nav a {
+    display:block;
+  } 
+  
+  
 }
