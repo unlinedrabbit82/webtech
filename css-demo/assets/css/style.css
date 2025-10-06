@@ -12,8 +12,9 @@ html {
 /*  ---------------Utility Classes----------------- */
 
 .container{
-  width: 80vw;
-background:red;
+width: 70vw;
+max-width:960px;  
+margin: 40px auto;  
 }
 
 /*  ---------------Global Styles----------------- */
