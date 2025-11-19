@@ -65,25 +65,26 @@ main {
     padding:1% 40px;
 }
 
-content h2 {
+
+article h2 {
     background: #4a2b07;
     text-align: center;
     padding:20px ;
     color: #ffff;
     
 }
-content section {
+article section {
      border-left: 1px solid #000000;
      border-right: 1px solid #000000;
      border-bottom: 1px solid #000000;
     
 }
-content p{
+article p{
     margin:5%;
 }
 
 
-content ul img{
+article ul img{
     
     max-width: 200px;
     width:100%;
@@ -91,8 +92,14 @@ content ul img{
    
     
 }
-
-content #navimg {
+article h3 {
+    background: #4a2b07;
+    text-align: center;
+    padding:20px ;
+    color: #ffff;
+    
+}
+article #navimg {
 
   display:flex;
   flex-direction:row;
@@ -115,5 +122,18 @@ content #navimg {
 
 
 
-
+article h4{
+    background: #4a2b07;
+    text-align: center;
+    padding:10px ;
+    color: #ffff;
+    
+}
+article h5 {
+  margin-left: 5%;
+}
+article h6 {
+  padding:0;
+  margin:0;
+}
 
