@@ -1,0 +1,175 @@
+
+/*     color pallete
+#e4e6a8: A light, desaturated yellow that evokes a sense of emptiness.
+#e1e2bb: A soft, muted yellow-green that adds to the unsettling ambiance.
+#d6dea7: A pale greenish-yellow that contributes to the overall faded look.
+#c3cb6e: A more vibrant yellow-green that still maintains a washed-out feel.
+#c6c58b: A light olive green that enhances the eerie, liminal space aesthetic. 
+*/ 
+
+body {
+  background-color:#b28e31; /*i wanted it to have a stained look to it */
+  font-family: "Alan Sans", sans-serif;
+  margin:0;
+  color: #030302;
+  background-image: url("/backrooms-final/assets/img/backgroundimg.png");
+}
+header.primary{
+  background:#6a5742
+  ; 
+  color:#FFE4B9;
+  text-align:center;
+  text-shadow: 1px 1px #000000;
+  padding: 10px;
+}
+header.primary nav ul {
+  
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  
+  list-style-type:none;
+  margin: 0 0    ;
+  padding:0 10%;
+  
+}
+header.primary nav li{
+       
+              
+    max-width: 25%;
+    margin: 0 0px;   
+   
+    background-color:#030302;
+    
+    width:25%;
+    padding: 25px 0;
+    margin:0 5px;
+    border: 1px solid #FFE4B9;
+    transition:.4s;     
+    
+}
+header.primary nav a{
+  
+    color:#FFE4B9;
+    font-size:1.2rem;
+    
+}
+
+header.primary nav a:hover {
+  background-color:rgba(0,0,0,.8);
+}
+main {
+    margin:0 25%;
+    background: #e4e6a8;
+    padding:1% 40px;
+}
+
+
+article h2 {
+    background: #4a2b07;
+    text-align: center;
+    padding:20px ;
+    color: #ffff;
+    
+}
+article section {
+     border-left: 1px solid #000000;
+     border-right: 1px solid #000000;
+     border-bottom: 1px solid #000000;
+    
+}
+article p{
+    margin:5%;
+}
+
+
+article ul img{
+    
+    max-width: 200px;
+    width:100%;
+    height:auto; 
+   
+    
+}
+article h3 {
+    background: #4a2b07;
+    text-align: center;
+    padding:20px ;
+    color: #ffff;
+    
+}
+article #navimg {
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding: 0 10%;
+   list-style-type:none;
+}
+ .col {
+  
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-right:10%;
+  padding-left:0%;
+ 
+}
+.col ul{
+  list-style-type:none;
+}
+
+
+
+article h4{
+    background: #4a2b07;
+    text-align: center;
+    padding:10px ;
+    color: #ffff;
+    
+}
+article h5 {
+  margin-left: 5%;
+}
+article h6 {
+  padding:0;
+  margin:0;
+}
+
+.accordion-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two equal columns */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* center the grid */
+}
+
+.accordion {
+  width: 100%;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1rem;
+  background: #4a2b07;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+  padding: 0 1rem;
+}
+
+.accordion-panel.open {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
