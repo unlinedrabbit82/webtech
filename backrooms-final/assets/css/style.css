@@ -12,7 +12,7 @@ body {
   font-family: "Alan Sans", sans-serif;
   margin:0;
   color: #030302;
-  background-image: url("backrooms-final/assets/img/backgroundimg.png");
+  background-image: url("/backrooms-final/assets/img/backgroundimg.png");
 }
 header.primary{
   background:#6a5742
